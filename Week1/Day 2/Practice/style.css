@@ -1,0 +1,23 @@
+h1 {
+  color: aqua;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  padding-left: 10px;
+
+}
+span {
+  color: white;
+}
+ h2{
+  background-color: blueviolet;
+  color: white;
+  text-align: center
+ }
+
+ h3{
+  background-color: aqua;
+  text-align: end;
+  text-decoration: underline;
+
+ }
