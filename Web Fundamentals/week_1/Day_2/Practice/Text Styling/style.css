@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue;
+    margin-left: 25px;
+}
+#button{ 
+        background-color: #04AA6D; /* Green /
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 40px;
+        / padding: 10px 70px; */
+        background-color: #e7e7e7; color: rgb(59, 175, 17);
+        border: 2px solid #04AA6D;
+        width: 150px;
+        margin-bottom: 10px;
+}
+.btn-2{
+    margin-top: 10px;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size:x-large;
+    border: lightgreen;
+
+}
+.create{
+    margin-top: 10px;
+    background-color: #2B78E4;
+    width: 150px;
+    text-align: center;
+    box-shadow:  10px 5px 5px black;
+    height: 30px;
+    color: white;
+    font-size: 0.8rem;
+}
