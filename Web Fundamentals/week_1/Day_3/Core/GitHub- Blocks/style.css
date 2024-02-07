@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 2000px;
+    margin: 0 auto;
+}
+
+
+h1{
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
+
+
+.photo{
+    background-color: rebeccapurple;
+    height: 450px;
+    width: auto;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: flex;
+    JUSTIFY-CONTENT: SPACE-EVENLY;
+    padding: 20PX;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+P{
+    text-align: center;
+    text-align: center;
+    font-size: 32px;
+}
+
+.mid{
+    background-color: brown;
+}
+
+.bottom{
+    background-color: blue;
+}
