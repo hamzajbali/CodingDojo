@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 1%;
+}
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+.user{
+    width: 50%;
+    
+    border: 1px solid black;
+
+}
+.image{
+    height: 42px;
+    background-color: aqua;
+}
+.imagess{
+    padding: 1px;
+}
+
+
+
