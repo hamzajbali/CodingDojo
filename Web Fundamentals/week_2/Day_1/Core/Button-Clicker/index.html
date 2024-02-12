@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button_Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-logo">Dojonary</h1>
+            <ul class="nav-links">
+                <li><div class="input"><input type="text" placeholder="Search"></div></li>
+                <li><button class="nav-btn" onclick="change(this)">Login</button></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="block-1">
+                <div class="card-1">
+                    <div class="left">
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p>Pluarl: ninjas</p>
+                        <button class="btn-1" onclick="alert('This Page says Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="right">
+                        <h3>A practitioner skilled in the</h3>
+                        <h3><span><a href="Japenese">Japenese</a></span> art of <span><a href="ninjutsu">ninjutsu</a></span></h3>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <h3>Dojonary is </h3>
+                    <h3>Defined By YOU</h3>
+                    <button class="btn-2" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+            <div class="block-2">
+                <div class="card">
+                    <div class="left">
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p>Pluarl: ninjas</p>
+                        <button class="btn-3" onclick="alert('This Page says Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="right">
+                        <h3>A <span><a href="programmer">Programmer who can breaks</a></span></h3>
+                        <h3>down problems with <span><a href="zen">zen</a></span>-like</h3>
+                        <h3>focus</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
